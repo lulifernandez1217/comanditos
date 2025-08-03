@@ -1,9 +1,17 @@
+# comanditos_denuevo
+
+## aca voy a guardar los comandos basicos de github
+
+---
+
 # Comanditos
 
 ## Comandos de la compu
 
 ```bash
 cd carpeta # para cambiar de carpetas
+cd #para cambiar a la carpeta raiz de la pc (/home/fjalampidis)
+cd - # para cambiar a la carpeta donde estabas antes
 ```
 
 ```bash
@@ -12,8 +20,12 @@ ls -a # para enlistar los archivos y carpetas includas las ocultas (son las que 
 ```
 
 ```bash
+pwd # para ver en que carpeta estoy
+```
+
+```bash
 rm archivo # para eliminar un archivo
-rm -r carpeta # para eliminar un archivo
+rm -r carpeta # para eliminar una carpeta
 ```
 
 ```bash
@@ -28,7 +40,7 @@ sudo cualquier-comando-de-arriba # para ejecutar como administrador
 ## Comandos de git
 
 ```bash
-git init # iniciar un repositorio en la carpeta en dode estas
+git init # iniciar un repositorio en la carpeta en donde estas
 ```
 
 ```bash
@@ -49,4 +61,24 @@ git add archivo # agrega archivos para que git observe si cambio o no el archivo
 
 ```bash
 git commit -m "titulo o mensaje del commit (la version) del codigo"
+```
+
+```bash
+git push # para subir los cambios a github
+```
+
+```bash
+git branch # permite ver todas las ramas que hay en el repositorio local
+```
+
+```bash
+git checkout -b "nombre-de-la-rama" # para crear una rama y moverte a ella
+```
+
+```bash
+git log --oneline #para ver el historial de commits en el repositorio actual. --oneline muestra un resumen de commit
+```
+
+```bash
+git push --set-upstream origin ramita # paa subir los cambios de una rama nueva. Este comando se usa solamente cuando se crea una rama, el resto de veces utilizar git push
 ```
