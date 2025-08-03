@@ -29,6 +29,14 @@ rm -r carpeta # para eliminar una carpeta
 ```
 
 ```bash
+code . # para abrir en visual studio code la caperta actual
+
+code nombrearchivo # para abrir un archivo en especifico en vsc
+
+code .. #para abrir la carpeta anterior en vsc
+```
+
+```bash
 touch archivo # para crear un archivo
 mkdir carpeta # para crear una carpeta
 ```
@@ -81,4 +89,12 @@ git log --oneline #para ver el historial de commits en el repositorio actual. --
 
 ```bash
 git push --set-upstream origin ramita # paa subir los cambios de una rama nueva. Este comando se usa solamente cuando se crea una rama, el resto de veces utilizar git push
+```
+
+```bash
+git switch main # para cambiar de rama solamente
+```
+
+```bash
+git pull # para actualizar los cambios de github
 ```
