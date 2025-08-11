@@ -98,3 +98,23 @@ git switch main # para cambiar de rama solamente
 ```bash
 git pull # para actualizar los cambios de github
 ```
+
+## Comandos de npm
+
+- npm es un gestor de paquetes de javascript
+
+```bash
+npm create vite@latest # para crear un proyecto con la plantilla de vite
+```
+
+```bash
+npm install # se debe ejecutar en la raiz del proyecto (la carpeta principal del proyecto). Instala todas las dependencias del proyecto que no esten instaladas
+```
+
+```bash
+npm i <nombre-del-paquete> # para instalar un paquete de manera individual. Este comando guarda el registro que para este proyecto es necesario usar el paquete que se esta instalando.
+```
+
+```bash
+npm run dev # se debe ejecutar en la raiz del proyecto (la carpeta principal del proyecto). para ejecutar un proyecto en un entorno de desarrollo creado por vite
+```
